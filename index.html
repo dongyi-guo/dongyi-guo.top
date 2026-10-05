@@ -14,14 +14,23 @@
 
 <!-- Sidebar -->
 <section id="sidebar">
-	<div class="inner"><nav><ul>
-		<li><a href="#intro">WELCOME</a></li>
-		<li><a href="#professional">EXPERIENCE</a></li>
-		<li><a href="#educational">EDUCATION</a></li>
-		<li><a href="#volunteer">VOLUNTEERING</a></li>
-		<li><a href="#skill">SKILLS</a></li>
-		<li><a href="#cert">CERTIFICATES</a></li>
-	</ul></nav></div>
+	<div class="mobile-bar">
+		<button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+			<span class="icon solid fa-bars nav-open-icon" aria-hidden="true"></span>
+			<span class="icon solid fa-times nav-close-icon" aria-hidden="true"></span>
+		</button>
+		<span class="mobile-title" aria-live="polite">Welcome</span>
+	</div>
+	<div class="inner">
+		<nav id="site-nav"><ul>
+			<li><a href="#intro"><span class="icon solid fa-home" aria-hidden="true"></span><span class="nav-label">Welcome</span></a></li>
+			<li><a href="#professional"><span class="icon solid fa-briefcase" aria-hidden="true"></span><span class="nav-label">Experience</span></a></li>
+			<li><a href="#educational"><span class="icon solid fa-graduation-cap" aria-hidden="true"></span><span class="nav-label">Education</span></a></li>
+			<li><a href="#volunteer"><span class="icon solid fa-hands-helping" aria-hidden="true"></span><span class="nav-label">Volunteering</span></a></li>
+			<li><a href="#skill"><span class="icon solid fa-terminal" aria-hidden="true"></span><span class="nav-label">Skills</span></a></li>
+			<li><a href="#cert"><span class="icon solid fa-certificate" aria-hidden="true"></span><span class="nav-label">Certificates</span></a></li>
+		</ul></nav>
+	</div>
 </section>
 
 <!-- Wrapper -->
@@ -82,7 +91,7 @@
 							<strong>Customer-Focused Support:</strong> Provided excellent customer service by actively listening to students, addressing their inquiries, and resolving issues in a friendly and timely manner. Consistently exceeded customer satisfaction metrics by ensuring students received clear guidance and support, fostering a positive learning experience.
 						</li>
 					</ul>
-					<strong>Skills</strong>: Customer Engagement, Customer Support.
+					<p><strong>Skills</strong>: Customer Engagement, Customer Support.</p>
 				</div>
 			</div>
 		</section>
@@ -110,7 +119,7 @@
 							<strong>Collaboration & Course Development:</strong> Worked with supervisors, tutors, and course design teams to enhance curriculum content and delivery, ensuring improved student engagement and learning outcomes.
 						</li>
 					</ul>
-					<strong>Skills</strong>: Python, Object-Oriented Programming (OOP), Web Scraping, Interactive Teaching, Customer Engagement, Customer Support.
+					<p><strong>Skills</strong>: Python, Object-Oriented Programming (OOP), Web Scraping, Interactive Teaching, Customer Engagement, Customer Support.</p>
 				</div>
 			</div>
 		</section>
@@ -135,7 +144,7 @@
 							<strong>Agile Methodologies:</strong> Engaged in daily stand-up meetings, sprint planning, and retrospectives, following Agile methodologies to ensure efficient project management and timely delivery.
 						</li>
 					</ul>
-					<strong>Skills</strong>: Python, Object-Oriented Programming (OOP), Agile Methodologies, Scrum, Test-Driven Development (TDD).
+					<p><strong>Skills</strong>: Python, Object-Oriented Programming (OOP), Agile Methodologies, Scrum, Test-Driven Development (TDD).</p>
 				</div>
 			</div>
 		</section>
@@ -158,7 +167,7 @@
 							<strong>Testing Support:</strong> Helped in planning integration, system, and acceptance testing strategies, working with the team to develop practical testing solutions to ensure system reliability.
 						</li>
 					</ul>
-					<strong>Skills</strong>: Drupal, Web Server Administration, Database Administration, Client Communication.
+					<p><strong>Skills</strong>: Drupal, Web Server Administration, Database Administration, Client Communication.</p>
 				</div>
 			</div>
 		</section>
@@ -223,9 +232,11 @@
 
 	<!-- Skills -->
 	<section id="skill" class="wrapper style3 fade-up">
-		<div class="inner">
-			<p class="section-eyebrow">Skills</p>
+		<div class="section-heading">
+			<p>Toolbox</p>
 			<h2>Skills</h2>
+		</div>
+		<div class="inner">
 			<div class="features">
 				<section>
 					<span class="icon brands major fa-linux"></span>
@@ -363,9 +374,11 @@
 
 	<!-- Certificates -->
 		<section id="cert" class="wrapper style3-alt fade-up">
-			<div class="inner">
-				<p class="section-eyebrow">Certificates</p>
+			<div class="section-heading">
+				<p>Credentials</p>
 				<h2>License & Certificates</h2>
+			</div>
+			<div class="inner">
 				<div class="features">
 					<section>
 						<span class="icon solid major fa-user-graduate"></span>
